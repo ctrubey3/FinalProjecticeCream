@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>About</title>
+</head>
+<body>
+<div class="container">
+    <!-- Nav -->
+    <nav class="main-nav">
+        <img src="data:image/jpeg;base64,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" alt="IceCream" class="logo">
+
+        <div class="navBar">
+            <a href="index.html" >HOME</a>
+            <a href="about.html">ABOUT</a>
+            <a href="flavors.html">FLAVORS</a>
+            <a href="contact.html">CONTACT</a>
+        </div>
+
+    </nav>
+</div>
+
+    <div class="dropbtn">
+        <button class=" fa fa-bars dropbtn"
+                onclick="myFunction()"> MENU <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content" id="myDropdown">
+            <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <a href="flavors.html">FLAVORS</a>
+            <a href="contact.html">CONTACT</a>
+        </div>
+        <script>
+            function myFunction() {
+                document.getElementById("myDropdown").classList.toggle("show");
+            }
+            window.onclick = function(e) {
+                if (!e.target.matches('.dropbtn')) {
+                    const myDropdown = document.getElementById("myDropdown");
+                    if (myDropdown.classList.contains('show')) {
+                        myDropdown.classList.remove('show');
+                    }
+                }
+            }
+        </script>
+    </div>
+
+<!-- about section starts -->
+<section id="about-page" class="container-fluid">
+    <div class="row">
+        <div class="col-sm-12 text-center">
+            <h1 class="text-center"><i class="fas fa-info-circle mr-2"></i>About</h1>
+            <hr class="section-hr">
+        </div><!-- About me grid -->
+        <!-- presentation -->
+        <div id="presentation-about-page" class="col-sm-8 text-center">
+            <h5 class="text-center mt-1 m-5">Super duper Ice Cream is the best ic cream in the world. Founded in 2019, Manthaniel Icereamo wanted ice cream to be super all the time. He used the same stuff that makes rubber duckies cry to make it taste so good.</h5>
+
+
+        </div><!-- presentation ends -->
+        <!-- picture presentation starts -->
+        <div id="image-presentation-box" class="col-sm-4">
+            <div class="col-md-12 col-sm-12">
+                <img class="img-fluid" src="../untitled5/images/aboutImage.jpg" alt="Juan Lunar in El ateneo Buenos Aires - Argentina">
+            </div>
+        </div><!-- picture presentation ends -->
+    </div><!-- row ends -->
+</section>
+<section id="portfolio-page" class="jumbotron">
+    <!-- Portfolio section begins -->
+
+    <div class="row">
+        <div class="col-sm-12 text-center">
+            <h1 class="headings">More About US</h1>
+            <hr class="section-hr">
+        </div>
+
+        <!-- project 1 starts -->
+        <div class="col-md-4 col-sm-6">
+            <a href='https://codepen.io/juanlunar/full/pWyrwL/' target='_blank'>
+                <figure class="figure">
+                    <div class="img-thumbnail portfolioProjectHover">
+                        <img src="https://i.pinimg.com/originals/8c/e2/35/8ce2351fd183572c904eb30185928f3c.jpg" class="img-fluid figure-img" style="width:400px; height:350px;" alt="StoreFlorida">
+                        <div class="figure-caption text-center">
+                            <p>Address: 17288 Perdido Key Dr, Pensacola, FL 32507<p>
+                        </div>
+                    </div>
+                </figure>
+            </a>
+        </div><!-- project 1 ends -->
+
+        <!-- proyect 2 starts -->
+        <div id='randomQuoteMachineContainer' class="col-md-4 col-sm-6">
+            <a href='https://codepen.io/juanlunar/full/NvoXMe/' target='_blank'>
+                <figure class="figure portfolioProjectHover">
+                    <div class="img-thumbnail portfolioProjectHover">
+                        <img src="../untitled5/images/hoemImage2.jpg" class="img-fluid figure-img" style="width:400px; height:350px;" alt="HomeImage2">
+                        <div class="figure-caption text-center">
+                            <p>Subscribe for Deals<p>
+                        </div>
+                    </div>
+                </figure>
+            </a>
+        </div><!-- project 2 ends -->
+
+
+
+        <!-- project 3 starts -->
+        <div class="col-md-4 col-sm-6">
+            <figure class="figure">
+                <div class="img-thumbnail">
+                    <img src="https://data.whicdn.com/images/337401578/original.jpg" class="img-fluid figure-img" alt="collage" style="width:400px; height:350px;">
+                    <div class="figure-caption text-center">
+                        <p>Plan an Event Today!<p>
+                    </div>
+                </div>
+            </figure>
+        </div><!-- project 3 ends -->
+    </div><!-- row ends -->
+</section>  <!-- Portfolio section ends -->
+<!-- contact section starts -->
+
+
+
+
+<section class="follow">
+    <p>Follow US</p>
+    <footer>
+        <div class=" fa-3x text-center">
+            <a href="https://www.facebook.com"><i class="fab  fa-facebook"></i></a>
+            <a href="https://twitter.com/home"><i class="fab   fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/home"><i class="fab   fa-linkedin"></i></a>
+        </div>
+
+    </footer>
+    <script src="https://kit.fontawesome.com/9e57663098.js" crossorigin="anonymous"> </script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+</section>
+</div>
+<!-- Links -->
+<section class="links">
+    <div class="links-inner">
+        <ul>
+            <li><h3>What's New</h3></li>
+            <li><a href="#">Blue</a></li>
+            <li><a href="#">Chocolate</a></li>
+            <li><a href="#">Vanilla</a></li>
+            <li><a href="#"> The Trio</a></li>
+        </ul>
+        <ul>
+            <li><h3>IceCream Store</h3></li>
+            <li><a href="#">Address</a></li>
+            <li><a href="#">Our Plan</a></li>
+            <li><a href="#">Super Duper Store support</a></li>
+            <li><a href="#">Refund Policy</a></li>
+            <li><a href="#">Order tracking</a></li>
+        </ul>
+        <ul>
+            <li><h3>Education</h3></li>
+            <li><a href="#">Ice Cream Store education</a></li>
+            <li><a href="#">Benefits for Workers</a></li>
+            <li><a href="#">Deals for studentss</a></li>
+        </ul>
+        <ul>
+            <li><h3>Extra Activities</h3></li>
+            <li><a href="#">Book Club</a></li>
+            <li><a href="#">Movie Nights</a></li>
+            <li><a href="#">Bingo Night</a></li>
+            <li><a href="#">Christmas event</a></li>
+            <li><a href="#">New Years Celebration</a></li>
+        </ul>
+        <ul>
+            <li><h3>Community</h3></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Out Reach</a></li>
+            <li><a href="#">Donations</a></li>
+            <li><a href="#">Catering</a></li>
+            <li><a href="#">Calender</a></li>
+        </ul>
+        <ul>
+            <li><h3>Company</h3></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">About our Super Duper Shop</a></li>
+            <li><a href="#">Company news</a></li>
+            <li><a href="#">Our Clients</a></li>
+        </ul>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer-inner">
+        <div><i class="fas fa-globe fa-2x"></i> English (United States)</div>
+        <ul>
+            <li><a href="#">Sitemap</a></li>
+            <li><a href="contact.html">Contact Super Duper Ice Cream Shop</a></li>
+            <li><a href="#">Privacy & cookies</a></li>
+            <li><a href="#">Terms of use</a></li>
+            <li><a href="#">Trademarks</a></li>
+            <li><a href="#">Safety</a></li>
+            <li><a href="#">About our ads</a></li>
+            <li><a href="#">&copy; Super Duper Ice Cream Shop 2021</a></li>
+        </ul>
+    </div>
+</footer>
+
+
+</body>
+
+</html>
